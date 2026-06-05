@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Tennis CS Training/Tennis CS Training.csproj" />
+  <Project Path="Tennis CS Training.Tests/Tennis CS Training.Tests.csproj" />
 </Solution>
