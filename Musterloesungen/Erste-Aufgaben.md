@@ -1,6 +1,6 @@
 # Musterloesungen für die ersten drei Aufgaben
 
-Diese Datei ist für Nachbesprechungen gedacht. Sinnvoll ist, dass die Praktikantin die Aufgaben zürst selbst bearbeitet und nur bei Bedarf hier nachschaut.
+Diese Datei ist für Nachbesprechungen gedacht. Sinnvoll ist, dass die Praktikantin die Aufgaben zuerst selbst bearbeitet und nur bei Bedarf hier nachschaut.
 
 ## Aufgabe 1: Gewonnene Punkte addieren
 
@@ -29,7 +29,7 @@ public static int BerechneVerbleibendeBaelle(int baelleAmStart, int verloreneBae
 }
 ```
 
-Hier wird zürst subtrahiert. Anschliessend verhindert eine einfache Bedingung, dass ein negativer Wert zurückgegeben wird.
+Hier wird zuerst subtrahiert. Anschliessend verhindert eine einfache Bedingung, dass ein negativer Wert zurückgegeben wird.
 
 ## Aufgabe 3: Spiele in Punkte umrechnen
 

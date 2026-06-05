@@ -3,7 +3,7 @@ namespace Tennis_CS_Training.Exercises;
 public static class RallyBasicsExercises
 {
     // Aufgabe 1:
-    // Eine Spielerin gewinnt in einem Satz zürst eine Serie von Ballwechseln
+    // Eine Spielerin gewinnt in einem Satz zuerst eine Serie von Ballwechseln
     // und später noch einmal weitere Ballwechsel.
     // Gib die Gesamtzahl der gewonnenen Punkte zurück.
     public static int ZaehleGewonnenePunkte(int punkteAusVorhand, int punkteAusRueckhand)
