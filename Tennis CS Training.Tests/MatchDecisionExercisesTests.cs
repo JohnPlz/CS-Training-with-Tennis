@@ -30,7 +30,7 @@ public class MatchDecisionExercisesTests
     [Theory]
     [InlineData(1, "Erster Aufschlag")]
     [InlineData(2, "Zweiter Aufschlag")]
-    [InlineData(0, "Ungueltig")]
+    [InlineData(0, "Ungültig")]
     public void GibAufschlagBezeichnung_SollAufschlagNummerInTextUebersetzen(int aufschlagNummer, string erwartet)
     {
         string aufschlagBezeichnung = MatchDecisionExercises.GibAufschlagBezeichnung(aufschlagNummer);
@@ -50,9 +50,9 @@ public class MatchDecisionExercisesTests
     }
 
     [Theory]
-    [InlineData(4, 2, "Fuehrt")]
+    [InlineData(4, 2, "Führt")]
     [InlineData(3, 3, "Gleichstand")]
-    [InlineData(2, 5, "Liegt zurueck")]
+    [InlineData(2, 5, "Liegt zurück")]
     public void VergleicheSatzstand_SollDenAktuellenStandBeschreiben(int spieleSpielerin, int spieleGegnerin, string erwartet)
     {
         string satzstandBeschreibung = MatchDecisionExercises.VergleicheSatzstand(spieleSpielerin, spieleGegnerin);
